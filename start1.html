@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="next">
+    <header>
+        <h1>SFHC Quiz Competition</h1>
+    </header>
+    <main>
+        <section id="quiz">
+            <h2 class="quiz-text">Quiz</h2>
+            <h3 id="question" ></h3>
+            <div id="options" class="btn-group choice">
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+                <button class="btn"></button>
+            </div>
+            <div class="red" id="timer"></div>
+            <button id="submit-btn" class="btn-submit">Submit Now</button>
+        </section>
+       <div>
+        <section id="results" class="hidden">
+            <h2 class="result"> Your Result</h2>
+            <h3 class="res" >You scored <span id="score"></span> out of <span id="total"></span>.</h3>
+            <form class="form1">
+                <label class="enter-name" for="name">Enter your name:</label>
+                <input class="enter" type="text" id="name" required>
+                <div class="btn-save2">
+                    <button id="save-btn" class="btn-save1">Save</button>
+                </div>
+            </form>
+        </section>
+        <section class="History" id="leaderboard">
+            <h2>Your History</h2>
+            <ul id="scores"></ul> 
+        </section>
+       </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

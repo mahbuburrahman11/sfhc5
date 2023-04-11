@@ -2,44 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Quiz Website</title>
-    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="bootstrap-5.3.0-alpha2-dist/css/bootstrap.min.css">
 </head>
-<body class="next">
-    <header>
-        <h1>SFHC Quiz Competition</h1>
-    </header>
-    <main>
-        <section id="quiz">
-            <h2 class="quiz-text">Quiz</h2>
-            <h3 id="question" ></h3>
-            <div id="options" class="btn-group choice">
-                <button class="btn"></button>
-                <button class="btn"></button>
-                <button class="btn"></button>
-                <button class="btn"></button>
+<body class="primary">
+    <div class="row row-cols-1 row-cols-md-3 mx-auto ">
+        <div class="col ">
+          <div class="card body1">
+            <img src="New folder/quiz-comic-pop-art-style_175838-505.avif" class="card-img-top" alt="...">
+            <div class="card-body body">
+              <h5 class="card-title">Welcome to SFHC quiz competition.</h5>
+              <p class="card-text">প্রতিটি কুইজ সম্পুর্ন করার জন্য ২০ সেকেন্ড করে সময় পাবেন। ২০ সেকেন্ড এর অতিরিক্ত হলে কুইজ অটোমেটিক সাবমিট হয়ে যাবে। কুইজ সম্পুর্ন করার পর ওই পেইজের স্ক্রিনশট নিয়ে আমাদের গ্রুপে পোস্ট করতে হবে। আপনি একটি কুইজে কেবলমাত্র একবারই অংশগ্রহণ করতে পারবেন। একাধিকবার কুইজ সাবমিট করলে তা গ্রহনযোগ্য হবে না. ধন্যবাদ।
+            </p>
+             <div class="text-center">
+                <a href="/start1.html" class="btn btn-primary btn-lg">Start Quiz</a>
+             </div>
             </div>
-            <div class="red" id="timer"></div>
-            <button id="submit-btn" class="btn-submit">Submit Now</button>
-        </section>
-       <div>
-        <section id="results" class="hidden">
-            <h2 class="result"> Your Result</h2>
-            <h3 class="res" >You scored <span id="score"></span> out of <span id="total"></span>.</h3>
-            <form class="form1">
-                <label class="enter-name" for="name">Enter your name:</label>
-                <input class="enter" type="text" id="name" required>
-                <div class="btn-save2">
-                    <button id="save-btn" class="btn-save1">Save</button>
-                </div>
-            </form>
-        </section>
-        <section class="History" id="leaderboard">
-            <h2>Your History</h2>
-            <ul id="scores"></ul> 
-        </section>
-       </div>
-    </main>
-    <script src="script.js"></script>
+          </div>
+        </div>
+  </div>
 </body>
 </html>
